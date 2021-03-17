@@ -217,6 +217,7 @@ namespace FromRandomToPi
             this.ClientSize = new System.Drawing.Size(667, 414);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.MaximumSize = new System.Drawing.Size(683, 453);
             this.MinimumSize = new System.Drawing.Size(683, 453);
             this.Name = "Form1";
             this.Text = "Method Monte-Carlo";
