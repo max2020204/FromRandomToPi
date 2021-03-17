@@ -44,6 +44,7 @@ namespace FromRandomToPi
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -62,6 +63,7 @@ namespace FromRandomToPi
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label6);
@@ -132,7 +134,7 @@ namespace FromRandomToPi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(6, 59);
+            this.label5.Location = new System.Drawing.Point(-38, 34);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 25);
             this.label5.TabIndex = 5;
@@ -210,6 +212,16 @@ namespace FromRandomToPi
             this.panel3.Size = new System.Drawing.Size(414, 414);
             this.panel3.TabIndex = 4;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(6, 59);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(32, 25);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "In:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +257,7 @@ namespace FromRandomToPi
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 
